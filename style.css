@@ -350,11 +350,18 @@ h2 {
   }
 
   .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .hero-copy {
+    width: 100%;
   }
 
   .hero-art {
+    order: 2;
     justify-content: flex-start;
   }
 
