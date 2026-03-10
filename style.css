@@ -71,8 +71,8 @@ img {
 }
 
 .logo-mark {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
   display: block;
   flex-shrink: 0;
@@ -96,8 +96,9 @@ img {
 }
 
 .hero {
-  padding: 6rem 0 4rem;
+  padding: 5rem 0 4rem;
 }
+
 
 .eyebrow {
   color: var(--accent);
@@ -148,36 +149,33 @@ h2 {
   flex-wrap: wrap;
 }
 
-.hero {
-  padding: 5rem 0 4rem;
-}
-
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 420px);
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 380px);
   align-items: center;
-  gap: 3rem;
+  gap: 3.5rem;
 }
 
 .hero-copy {
   min-width: 0;
-  max-width: 700px;
+  max-width: 720px;
 }
 
 .hero-art {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
 }
 
 .hero-logo {
   width: 100%;
-  max-width: 360px;
-  max-height: 360px;
+  max-width: 340px;
+  max-height: 340px;
   height: auto;
   object-fit: contain;
   display: block;
-  opacity: 0.95;
+  opacity: 0.96;
   filter: drop-shadow(0 0 20px rgba(46, 168, 255, 0.08));
 }
 
