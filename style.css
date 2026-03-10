@@ -57,7 +57,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 72px;
+  min-height: 84px;
   gap: 1rem;
 }
 
@@ -71,8 +71,8 @@ img {
 }
 
 .logo-mark {
-  width: 30px;
-  height: 30px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
   display: block;
   flex-shrink: 0;
@@ -350,17 +350,16 @@ h2 {
   }
 
   .hero-grid {
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 
-.hero-art {
-  justify-content: flex-start;
-}
+  .hero-art {
+    justify-content: flex-start;
+  }
 
-.hero-logo {
-  max-width: 220px;
-  max-height: 220px;
-}
+  .hero-logo {
+    max-width: 220px;
+    max-height: 220px;
   }
 }
