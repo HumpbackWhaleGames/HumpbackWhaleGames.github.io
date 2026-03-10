@@ -147,6 +147,32 @@ h2 {
   flex-wrap: wrap;
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+}
+
+.hero-logo {
+  width: min(100%, 420px);
+  max-height: 420px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 24px rgba(255, 255, 255, 0.06));
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -315,5 +341,19 @@ h2 {
 
   .hero {
     padding: 4.5rem 0 3rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-art {
+    min-height: auto;
+    padding-top: 1rem;
+  }
+
+  .hero-logo {
+    width: min(75vw, 320px);
+    max-height: 320px;
   }
 }
