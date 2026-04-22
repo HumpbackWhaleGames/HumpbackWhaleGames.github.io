@@ -138,6 +138,10 @@ h2 {
   font-size: 1.05rem;
 }
 
+.line-below {
+  display: block;
+}
+
 .hero-text {
   max-width: 720px;
   margin-bottom: 1.75rem;
